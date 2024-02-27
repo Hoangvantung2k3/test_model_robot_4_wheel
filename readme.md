@@ -14,3 +14,4 @@ hướng dẫn chạy thử :
 ( lúc này sẽ hiển thị model có sẵn )
 - roslaunch carmodel_teleop carmodel_teleop_key.launch 
 ( đang sửa file python tại mục này )
+( đã sửa được file, robot chạy theo lệnh được nhập từ bàn phím, sửa file model chuẩn robot 4 bánh và thay thế model mẫu)
