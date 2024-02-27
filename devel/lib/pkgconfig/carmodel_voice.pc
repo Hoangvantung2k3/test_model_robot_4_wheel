@@ -1,0 +1,8 @@
+prefix=/home/tung/4-wheel-differential-car-ros/devel
+
+Name: carmodel_voice
+Description: Description of carmodel_voice
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

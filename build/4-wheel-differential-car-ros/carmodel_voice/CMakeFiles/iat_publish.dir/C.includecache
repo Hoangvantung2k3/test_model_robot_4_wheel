@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice/src/formats.h
+
+/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice/src/linuxrec.c
+stdio.h
+-
+stdlib.h
+-
+fcntl.h
+-
+signal.h
+-
+sys/stat.h
+-
+pthread.h
+-
+formats.h
+/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice/src/formats.h
+linuxrec.h
+/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice/src/linuxrec.h
+
+/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice/src/linuxrec.h
+formats.h
+/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice/src/formats.h
+

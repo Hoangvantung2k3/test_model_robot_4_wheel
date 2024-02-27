@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/gridfastslam/gfs2neff.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+cstring
+-
+

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tung/4-wheel-differential-car-ros/devel/include/gmapping/configfile/configfile_export.h
+
+/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/configfile/configfile.cpp
+cstdlib
+-
+gmapping/configfile/configfile.h
+/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/configfile/gmapping/configfile/configfile.h
+fstream
+-
+iostream
+-
+string
+-
+sstream
+-
+iostream
+-
+ctype.h
+-
+
+/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include/gmapping/configfile/configfile.h
+iostream
+-
+string
+-
+map
+-
+gmapping/configfile/configfile_export.h
+-
+

@@ -1,0 +1,8 @@
+prefix=/home/tung/4-wheel-differential-car-ros/install
+
+Name: carmodel_slam
+Description: Description of carmodel_slam
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
