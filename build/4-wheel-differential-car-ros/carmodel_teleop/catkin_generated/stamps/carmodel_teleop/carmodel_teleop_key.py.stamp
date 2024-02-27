@@ -132,7 +132,7 @@ if __name__=="__main__":
 			#print("publihsed: vx: {0}, wz: {1}".format(twist.linear.x, twist.angular.z))
 
 	except:
-		print e
+		print (e)
 
 	finally:
 		twist = Twist()
