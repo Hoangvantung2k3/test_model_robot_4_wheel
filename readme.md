@@ -12,5 +12,5 @@ hướng dẫn chạy thử :
 - source devel/setup.bash
 - roslaunch carmodel_description 02-drive.launch 
 ( lúc này sẽ hiển thị model có sẵn )
-- roslaunch carmodel_teleop carmodel_teleop_key,launch 
+- roslaunch carmodel_teleop carmodel_teleop_key.launch 
 ( đang sửa file python tại mục này )
