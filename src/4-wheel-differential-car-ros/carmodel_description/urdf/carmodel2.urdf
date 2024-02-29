@@ -31,130 +31,108 @@
   </link>
 
   <link name="base_link">
-    <visual>
-      <geometry>
-        <mesh
-          filename="package://carmodel_description/meshes/Body3.STL" />
-      </geometry>
-        <origin rpy="1.5705 0 0" xyz="-0.25 0.1675 -0.0075"/>
-      <material name="white"/>
-    </visual>
-
-    <collision>
-      <geometry>
-        <box size="0.5 0.3 0.07"/>
-      </geometry>
-      <origin rpy="0 0 0" xyz="0 0 0.035"/>
-    </collision>
-
     <inertial>
-      <origin xyz="-0.00509 0 0.03461" rpy="0 0 0"/>
-      <mass value="65.8282"/>
-      <inertia
-        ixx="63.621330" ixy="11.057206" ixz="0.021099"
-        iyy="187.798863" iyz="-0.003735"
-        izz="169.286082"/>
+      <mass value="10"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="0.083333" ixy = "0" ixz = "0" iyy="0.54166666" iyz = "0" izz="0.60833333"/>
     </inertial>
-  </link>
-
-  <link name="wheel_1">
     <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh
-          filename="package://carmodel_description/meshes/Wheel.STL" />
+        <box size="0.8 0.3 0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="-0.055 0 -0.055 "/>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.8 0.3 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+<!--4 bánh như nhau nên khai báo bánh 1, 2, 3, 4 với mục đích để gán ở phần joint -->
+  <link name="wheel_1">
+    <inertial>
+      <mass value="2.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.014583333" ixy = "0" ixz = "0" iyy="0.0125" iyz = "0" izz="0.01458333333"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
+      <geometry>
+        <cylinder length="0.2" radius="0.1"/>
+      </geometry>
       <material name="black"/>
     </visual>
     <collision>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <cylinder length="0.015" radius="0.055"/>
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="0 -0.0075 0"/>
     </collision>
-    <inertial>
-      <origin xyz="0 -0.0075 0" rpy="0 0 0"/>
-      <mass value="1.0252"/>
-      <inertia
-        ixx="0.09065214" ixy="0.0" ixz="0.0"
-        iyy="0.09065214" iyz="0.0"
-        izz="0.17745989"/>
-    </inertial>
   </link> 
 
   <link name="wheel_2">
+    <inertial>
+      <mass value="2.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.014583333" ixy = "0" ixz = "0" iyy="0.0125" iyz = "0" izz="0.01458333333"/>
+    </inertial>
     <visual>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <mesh
-          filename="package://carmodel_description/meshes/Wheel.STL" />
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="-0.055 0 -0.055"/>
       <material name="black"/>
     </visual>
     <collision>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <cylinder length="0.015" radius="0.055"/>
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="0 -0.0075 0"/>
     </collision>
-    <inertial>
-      <origin xyz="0 -0.0075 0" rpy="0 0 0"/>
-      <mass value="1.252"/>
-      <inertia
-        ixx="0.09065214" ixy="0.0" ixz="0.0"
-        iyy="0.09065214" iyz="0.0"
-        izz="0.17745989"/>
-    </inertial>
   </link> 
 
   <link name="wheel_3">
+    <inertial>
+      <mass value="2.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.014583333" ixy = "0" ixz = "0" iyy="0.0125" iyz = "0" izz="0.01458333333"/>
+    </inertial>
     <visual>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <mesh
-          filename="package://carmodel_description/meshes/Wheel.STL" />
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="-0.055 0 -0.055"/>
       <material name="black"/>
     </visual>
     <collision>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <cylinder length="0.015" radius="0.055"/>
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="0 -0.0075 0"/>
     </collision>
-    <inertial>
-      <origin xyz="0 -0.0075 0" rpy="0 0 0"/>
-      <mass value="1.252"/>
-      <inertia
-        ixx="0.09065214" ixy="0.0" ixz="0.0"
-        iyy="0.09065214" iyz="0.0"
-        izz="0.17745989"/>
-    </inertial>
   </link> 
 
   <link name="wheel_4">
+    <inertial>
+      <mass value="2.5"/>
+      <origin xyz="0 0 0"/>
+      <inertia ixx="0.014583333" ixy = "0" ixz = "0" iyy="0.0125" iyz = "0" izz="0.01458333333"/>
+    </inertial>
     <visual>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <mesh
-          filename="package://carmodel_description/meshes/Wheel.STL" />
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="-0.055 0 -0.055"/>
       <material name="black"/>
     </visual>
     <collision>
+      <origin xyz="0 0 0" rpy="1.5707 0 0"/>
       <geometry>
-        <cylinder length="0.015" radius="0.055"/>
+        <cylinder length="0.2" radius="0.1"/>
       </geometry>
-      <origin rpy="1.5705 0 0" xyz="0 -0.0075 0"/>
     </collision>
-    <inertial>
-      <origin xyz="0 -0.0075 0" rpy="0 0 0"/>
-      <mass value="1.252"/>
-      <inertia
-        ixx="0.09065214" ixy="0.0" ixz="0.0"
-        iyy="0.09065214" iyz="0.0"
-        izz="0.17745989"/>
-    </inertial>
   </link> 
 
   <joint name="base_footprint_joint" type="fixed">
@@ -171,30 +149,31 @@
 
   <link name="base_scan"/>
 
-  <joint name="joint_base_wheel1" type="continuous">
-    <origin rpy="0 0 0" xyz="0.13189 -0.1525 0.03018 "/>
-    <axis rpy="0 0 0" xyz="0 1 0"/>
+
+  <joint name="body_to_left_front" type="continuous">
+    <origin xyz="0.38 0.15 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0" rpy="0 0 0" />
     <parent link="base_link"/>
     <child link="wheel_1"/>
   </joint>
 
-  <joint name="joint_base_wheel2" type="continuous">
-    <origin rpy="0 0 0" xyz="-0.13211 -0.1525 0.03018 "/>
-    <axis rpy="0 0 0" xyz="0 1 0"/>
+  <joint name="body_to_right_front" type="continuous">
+    <origin xyz="0.38 -0.15 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0" rpy="0 0 0" />
     <parent link="base_link"/>
     <child link="wheel_2"/>
   </joint>
 
-  <joint name="joint_base_wheel3" type="continuous">
-    <origin rpy="0 0 0" xyz="0.13189 0.1675 0.03018 "/>
-    <axis rpy="0 0 0" xyz="0 1 0"/>
+  <joint name="body_to_left_rear" type="continuous">
+    <origin xyz="-0.38 0.15 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0" rpy="0 0 0" />
     <parent link="base_link"/>
     <child link="wheel_3"/>
   </joint>
 
-  <joint name="joint_base_wheel4" type="continuous">
-    <origin rpy="0 0 0" xyz="-0.13211 0.1675 0.03018 "/>
-    <axis rpy="0 0 0" xyz="0 1 0"/>
+  <joint name="body_to_right_rear" type="continuous">
+    <origin xyz="-0.38 -0.15 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0" rpy="0 0 0" />
     <parent link="base_link"/>
     <child link="wheel_4"/>
   </joint>
