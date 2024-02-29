@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {  
     ros::init(argc,argv,"move");  
     ros::NodeHandle n;  
-    // Need to publish a /cmd_vel topic according to the actual situation - thực hiện lệnh /cmd_vel dựa trên tình huống thực tế 
+    // 需要发布一个 /cmd_vel主题 根据实际情况来定
     ros::Publisher vel_pub = n.advertise<geometry_msgs::Twist>("/cmd_vel",1);  
   
     unsigned char rate;  
@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     ros::Rate loop_rate(rate);  
     geometry_msgs::Twist msg;  
   
-    // continue running, x has value, the othẻr is 0
+    // 让小车一直前进,x有值，剩下的都是0
     while (ros::ok())  
     {                   
         msg.linear.x = 0.2; 
