@@ -1,4 +1,3 @@
-26/2/2024 test model : chạy thử được model mẫu có sẵn
 
 đang fix chương trình điều khiển từ bàn phím ( teleop )
 
@@ -11,7 +10,7 @@ hướng dẫn chạy thử :
 - catkin_make
 - source devel/setup.bash
 - roslaunch carmodel_description 02-drive.launch 
-( lúc này sẽ hiển thị model có sẵn )
+( lúc này sẽ hiển thị model có sẵn ) ( đã có model chuẩn)
 - roslaunch carmodel_teleop carmodel_teleop_key.launch 
-( đang sửa file python tại mục này )
-( đã sửa được file, robot chạy theo lệnh được nhập từ bàn phím, sửa file model chuẩn robot 4 bánh và thay thế model mẫu)
+( đang sửa file python tại mục này ) ( đã sửa xong, đã điều khiển được nhưng khó điều khiển, sửa lại file điều khiển)
+
