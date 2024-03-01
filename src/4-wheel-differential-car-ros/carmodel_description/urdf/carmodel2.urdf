@@ -19,7 +19,7 @@
       <geometry>
         <box size="0.001 0.001 0.001" />
       </geometry>
-      <material name="Green" />
+      <material name="black" />
     </visual>
 
     <collision>
