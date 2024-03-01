@@ -6,7 +6,7 @@ int main(int argc, char **argv)
 {  
     ros::init(argc,argv,"move");  
     ros::NodeHandle n;  
-    // 需要发布一个 /cmd_vel主题 根据实际情况来定
+    // nhận lệnh cmd_vel từ hành động thực tế 
     ros::Publisher vel_pub = n.advertise<geometry_msgs::Twist>("/cmd_vel",1);  
   
     unsigned char rate;  
@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     ros::Rate loop_rate(rate);  
     geometry_msgs::Twist msg;  
   
-    // 让小车一直前进,x有值，剩下的都是0
+    // di chuyển robot về phia trước, x có giá trị, các thông số khác = 0
     while (ros::ok())  
     {                   
         msg.linear.x = 0.2; 
