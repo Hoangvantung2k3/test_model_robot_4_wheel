@@ -10,35 +10,35 @@ msg = """
 Control Your mrobot!
 ---------------------------
 Moving around:
-   u    i    o
-   j    k    l
-   m    ,    .
-q/z : increase/decrease max speeds by 10%
-w/x : increase/decrease only linear speed by 10%
-e/c : increase/decrease only angular speed by 10%
+   7    8    9
+   4    5    6
+   1    2    3
+q/a : increase/decrease max speeds by 10%
+w/s : increase/decrease only linear speed by 10%
+e/d : increase/decrease only angular speed by 10%
 space key, k : force stop
 anything else : stop smoothly
 CTRL-C to quit
 """
 
 moveBindings = {
-		'i':(1,0),
-		'o':(1,-1),
-		'j':(0,1),
-		'l':(0,-1),
-		'u':(1,1),
-		',':(-1,0),
-		'.':(-1,1),
-		'm':(-1,-1),
+		'8':(1,0),
+		'7':(1,-1),
+		'6':(0,1),
+		'4':(0,-1),
+		'9':(1,1),
+		'2':(-1,0),
+		'1':(-1,1),
+		'3':(-1,-1),
 		   }
 
 speedBindings={
 		'q':(1.1,1.1),
-		'z':(.9,.9),
+		'a':(.9,.9),
 		'w':(1.1,1),
-		'x':(.9,1),
+		's':(.9,1),
 		'e':(1,1.1),
-		'c':(1,.9),
+		'd':(1,.9),
 		  }
 
 def getKey():
