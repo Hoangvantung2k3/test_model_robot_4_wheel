@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="carmodel">
+<robot name="carmodel" xmlns:xacro="http://ros.org/wiki/xacro">
 <!---->
   <material name="white">
     <color rgba="1 1 1 1"/>
@@ -176,5 +176,37 @@
     <parent link="base_link"/>
     <child link="wheel_4"/>
   </joint>
+
+  <link name = "sensor_link">
+      <inertial>
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+          <mass value="3"/>
+          <inertia ixx="0.02" ixy="0" ixz="0" iyy="0.02" iyz="0" izz="0.02" />
+      </inertial>
+
+      <visual>
+          <origin xyz="0 0 0" rpy="0 0 0" />
+          <geometry>
+          <cylinder radius="0.05" length="0.1" />
+          </geometry>
+          <material name="Cyan"/>
+      </visual>
+  
+      <collision>
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+          <geometry>
+          <cylinder radius="0.05" length="0.1" />
+          </geometry>
+      </collision>
+  </link>
+
+
+
+  <joint name="sensor_joint" type="fixed">
+      <origin xyz="0.15 0 0.05" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="sensor_link"/>
+  </joint>
+
 
 </robot>

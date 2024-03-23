@@ -445,12 +445,6 @@ carmodel_teleop_BINARY_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/build/
 //Value Computed by CMake
 carmodel_teleop_SOURCE_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_teleop
 
-//Value Computed by CMake
-carmodel_voice_BINARY_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/carmodel_voice
-
-//Value Computed by CMake
-carmodel_voice_SOURCE_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_voice
-
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
@@ -549,6 +543,12 @@ lib:FILEPATH=/opt/ros/noetic/lib/libtf2.so
 log_LIB_DEPENDS:STATIC=general;sensor_range;general;sensor_odometry;general;sensor_base;
 
 //Value Computed by CMake
+m2wr_description_BINARY_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/Obstacle-Avoidance-Bot-Using-ROS
+
+//Value Computed by CMake
+m2wr_description_SOURCE_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/Obstacle-Avoidance-Bot-Using-ROS
+
+//Value Computed by CMake
 map_msgs_BINARY_DIR:STATIC=/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs
 
 //Value Computed by CMake
@@ -595,6 +595,9 @@ rosbag_storage_DIR:PATH=/opt/ros/noetic/share/rosbag_storage/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for rosconsole_bridge.
+rosconsole_bridge_DIR:PATH=/opt/ros/noetic/share/rosconsole_bridge/cmake
 
 //The directory containing a CMake configuration file for roscpp.
 roscpp_DIR:PATH=/opt/ros/noetic/share/roscpp/cmake
@@ -670,6 +673,9 @@ tf2_ros_DIR:PATH=/opt/ros/noetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/noetic/share/tf/cmake
+
+//The directory containing a CMake configuration file for urdf.
+urdf_DIR:PATH=/opt/ros/noetic/share/urdf/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/noetic/share/visualization_msgs/cmake

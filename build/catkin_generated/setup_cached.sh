@@ -12,5 +12,5 @@ export LD_LIBRARY_PATH="/home/tung/4-wheel-differential-car-ros/devel/lib:$LD_LI
 export PKG_CONFIG_PATH="/home/tung/4-wheel-differential-car-ros/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/tung/4-wheel-differential-car-ros/build'
 export PYTHONPATH="/home/tung/4-wheel-differential-car-ros/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/tung/4-wheel-differential-car-ros/devel/share/common-lisp'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/tung/4-wheel-differential-car-ros/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/tung/4-wheel-differential-car-ros/src:$ROS_PACKAGE_PATH"

@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   sensor_msgs
+  geometry_msgs
   std_msgs
   tf
 )
@@ -212,3 +213,7 @@ target_link_libraries(car_state_publisher ${catkin_LIBRARIES})
 
 add_executable(move src/move.cpp)
 target_link_libraries(move ${catkin_LIBRARIES})
+if(POLICY CMP0079)
+  cmake_policy(SET CMP0079 NEW)
+endif()
+
