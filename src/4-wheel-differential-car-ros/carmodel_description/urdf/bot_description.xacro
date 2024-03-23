@@ -69,15 +69,15 @@
   <!-- Create wheel right -->  
   <xacro:link_wheel name="link_right_wheel" />
   <!-- Create joint right --> 
-  <xacro:joint_wheel name="joint_right_wheel" param_xyz="-0.05 0.15 0" child="link_right_wheel"  />
+  <xacro:joint_wheel name="joint_right_wheel" param_xyz="-0.15 0.15 0" child="link_right_wheel"  />
   <!-- Create wheel left --> 
   <xacro:link_wheel name="link_left_wheel" />
   <!-- Create joint left --> 
-  <xacro:joint_wheel name="joint_left_wheel" param_xyz="-0.05 -0.15 0" child="link_left_wheel"  />
+  <xacro:joint_wheel name="joint_left_wheel" param_xyz="-0.15 -0.15 0" child="link_left_wheel"  />
   <!-- front left-->
   <xacro:link_wheel name="link_front_left_wheel" />
-  <xacro:joint_wheel name="joint_front_left_wheel" param_xyz="0.05 -0.15 0" child="link_front_left_wheel"  />
+  <xacro:joint_wheel name="joint_front_left_wheel" param_xyz="0.13 -0.15 0" child="link_front_left_wheel"  />
   <!--front right-->
   <xacro:link_wheel name="link_front_right_wheel" />
-  <xacro:joint_wheel name="joint_front_right_wheel" param_xyz="0.05 0.15 0" child="link_front_right_wheel"  />
+  <xacro:joint_wheel name="joint_front_right_wheel" param_xyz="0.13 0.15 0" child="link_front_right_wheel"  />
 </robot>

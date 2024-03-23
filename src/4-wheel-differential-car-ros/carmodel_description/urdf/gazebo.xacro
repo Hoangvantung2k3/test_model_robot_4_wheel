@@ -75,5 +75,29 @@
         </plugin>
         </sensor>
     </gazebo>
+    <gazebo>
+        <plugin name="gazebo_mecanum_pid_plugin" filename="libgazebo_ros_mecanum_pid_drive.so">
+            <commandTopic>cmd_vel</commandTopic>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <robotBaseFrame>base_footprint</robotBaseFrame>
+            <LeftFront>joint_front_left_wheel</LeftFront>
+            <RightFront>joint_front_right_wheel</RightFront>
+            <odometryRate>20</odometryRate>      
+            <publishWheelTF>true</publishWheelTF>
+            <publishWheelJointState>true</publishWheelJointState>
+            <WheelTorque>100</WheelTorque>
+            <WheelSeparationW>0.5</WheelSeparationW>
+            <WheelSeparationL>0.6</WheelSeparationL>
+            <wheelAccel>5</wheelAccel>
+            <wheelDiameter>0.13</wheelDiameter>
+            <publishOdom>false</publishOdom>
+            <isRollerModel>true</isRollerModel>
+            <dt>0.05</dt>
+            <WheelInputVelTopic>zm_input_vel</WheelInputVelTopic>
+            <WheelOutputVelTopic>zm_output_vel</WheelOutputVelTopic>
+            <WheelPID>gazebo_mecanum_plugins_PID</WheelPID>
+        </plugin>
+    </gazebo>
 
 </robot>
