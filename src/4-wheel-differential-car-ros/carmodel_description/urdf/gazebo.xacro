@@ -75,6 +75,7 @@
         </plugin>
         </sensor>
     </gazebo>
+    <!-- thêm pulgin mecanum nhưng hiện tại chưa khả thi-->
     <gazebo>
         <plugin name="gazebo_mecanum_pid_plugin" filename="libgazebo_ros_mecanum_pid_drive.so">
             <commandTopic>cmd_vel</commandTopic>
@@ -99,5 +100,16 @@
             <WheelPID>gazebo_mecanum_plugins_PID</WheelPID>
         </plugin>
     </gazebo>
+
+    <gazebo>
+        <plugin name = "omni_steering" filename= "libgazebo_ros_planar_move.so">
+            <commandTopic>cmd_vel</commandTopic>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <odometryRate>50.0</odometryRate>
+            <robotBaseFrame>base_footprint</robotBaseFrame>
+            <publishTF>false<publishTF> 
+        </plugin>
+    </gazebo> 
 
 </robot>
