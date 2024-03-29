@@ -19,15 +19,15 @@ def checkcase(range):
     elif ( range["right"] > 1  and range["center"] < 1 and range["left"] > 1 ):
         case = 'OBSTACLE CENTER!'
         linearx=0
-        angularz=-0.5
+        angularz=0.5
     elif ( range["right"] < 1  and range["center"] > 1 and range["left"] > 1 ):
         case = 'OBSTACLE RIGHT!'
         linearx=0
-        angularz=-0.5
+        angularz=0.5
     elif ( range["right"] > 1  and range["center"] > 1 and range["left"] < 1 ):
         case = 'OBSTACLE LEFT!'
         linearx=0
-        angularz=0.5
+        angularz=-0.5
     elif ( range["right"] < 1  and range["center"] > 1 and range["left"] < 1 ):
         case = 'OBSTACLE RIGHT AND LEFT!'
         linearx=0.6
@@ -35,11 +35,11 @@ def checkcase(range):
     elif ( range["right"] > 1  and range["center"] < 1 and range["left"] < 1 ):
         case = 'OBSTACLE CENTER AND LEFT!'
         linearx=0
-        angularz=0.5
+        angularz=-0.5
     elif ( range["right"] < 1  and range["center"] < 1 and range["left"] > 1 ):
         case = 'OBSTACLE CENTER AND RIGHT!'
         linearx=0
-        angularz=-0.5
+        angularz=0.5
     elif ( range["right"] < 1  and range["center"] < 1 and range["left"] < 1 ):
         case = 'OBSTACLE AHEAD!'
         linearx=0
