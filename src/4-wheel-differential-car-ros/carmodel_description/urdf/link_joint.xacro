@@ -2,6 +2,7 @@
 <robot name="m2wr" xmlns:xacro="https://www.ros.org/wiki/xacro" >   <!-- this second parameter is importent to make this file a valid xacro file -->
 
     <xacro:macro name="link_wheel" params="name">
+    <!-- phan thiet ke banh xe-->
     <link name="${name}">    
             <inertial>
             <mass value="0.2"/>
