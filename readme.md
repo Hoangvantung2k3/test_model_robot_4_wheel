@@ -11,5 +11,5 @@ hướng dẫn chạy thử :
 - rosrun gazebo_ros gazebo --verbose
 - rosrun carmodel_description o + tab + .py
 - rosrun teleop_twist_keyboard teleop_twist_keyboard.py : lệnh này chạy cho nhanh, thay vì roslaunch file teleop
-- mô hình 2d : roslaunch m2wr_description rviz.launch
+- mô hình 2d : roslaunch carmodel_description rviz.launch
 
