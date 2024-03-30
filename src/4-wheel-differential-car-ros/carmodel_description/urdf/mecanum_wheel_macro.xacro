@@ -2,7 +2,7 @@
 <robot name="mecanum_wheel" xmlns:xacro="http://ros.org/wiki/xacro">
 
   <xacro:include filename="$(find carmodel_description)/urdf/wheel.xacro" />
-  <xacro:include filename="$(find carmodel-description)/urdf/rollers.xacro"  />
+  <xacro:include filename="$(find carmodel_description)/urdf/rollers.xacro"  />
 
   <xacro:macro name="mecanum_wheel" params="name side interface">  
     

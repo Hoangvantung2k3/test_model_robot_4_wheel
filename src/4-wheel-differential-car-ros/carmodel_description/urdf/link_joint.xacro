@@ -1,17 +1,17 @@
 <?xml version="1.0" ?>
 <robot name="m2wr" xmlns:xacro="https://www.ros.org/wiki/xacro" >   <!-- this second parameter is importent to make this file a valid xacro file -->
-
-    <xacro:macro name="joint_wheel" params="name param_xyz child">
+<!-- old joint-link wheel -->
+ <!--   <xacro:macro name="joint_wheel" params="name param_xyz child">
         <joint name="${name}" type="continuous">
-            <origin rpy="0 0 0" xyz="${param_xyz}"/>        <!-- this gives orientation -->
+            <origin rpy="0 0 0" xyz="${param_xyz}"/>      
             <child link="${child}" />
             <parent link="link_chassis"/>
-            <axis rpy="0 0 0" xyz="0 1 0"/>    <!-- this says rotate about y axis -->
+            <axis rpy="0 0 0" xyz="0 1 0"/>   
             <limit effort="10000" velocity="1000"/>
             <joint_properties damping="1.0" friction="1.0" />
         </joint>  
         
-    </xacro:macro>
+    </xacro:macro> -->
 
     <xacro:macro name="sensor_link">
         <link name = "sensor_link">
