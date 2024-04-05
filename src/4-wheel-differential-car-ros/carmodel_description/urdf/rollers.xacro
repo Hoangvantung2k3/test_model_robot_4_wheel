@@ -72,7 +72,7 @@
   </xacro:macro>
 
   <xacro:macro name="rollers_link" params="name side">
-    <xacro:roller_loop name="${name}" side="${side}" num="15" loop="15" />    
+    <xacro:roller_loop name="${name}" side="${side}" num="9" loop="9" />    
   </xacro:macro>
 
 </robot>
