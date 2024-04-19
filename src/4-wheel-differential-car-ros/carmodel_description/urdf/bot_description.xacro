@@ -10,7 +10,7 @@
 <xacro:include filename="$(find carmodel_description)/urdf/gazebo.xacro" />
 <xacro:include filename="$(find carmodel_description)/urdf/link_joint.xacro" />
 <xacro:include filename="$(find carmodel_description)/urdf/mecanum_wheel_macro.xacro" />
-<xacro:include filename="$(find carmodel_description)/urdf/multicamera.urdf.xacro" />
+
     
   <link name="link_chassis">
     <!-- pose and inertial -->
