@@ -138,6 +138,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs/cmake_install.cmake")
   include("/home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/carmodel_nav/cmake_install.cmake")
   include("/home/tung/4-wheel-differential-car-ros/build/slam_gmapping/gmapping/cmake_install.cmake")
+  include("/home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin/cmake_install.cmake")
   include("/home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/carmodel_description/cmake_install.cmake")
   include("/home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/carmodel_slam/cmake_install.cmake")
 
