@@ -81,6 +81,7 @@ This is the Gazebo URDF model for the Intel RealSense T265 camera
           <updateRate>${fisheye_fps}</updateRate>
           <cameraName>${topics_ns}/fisheye1</cameraName>
           <imageTopicName>image_raw</imageTopicName>
+          <pointCloudTopicName>/camera/depth/points1</pointCloudTopicName>
           <cameraInfoTopicName>camera_info</cameraInfoTopicName>
           <frameName>${fisheye1_optical_frame}</frameName>
           <hackBaseline>0.07</hackBaseline>
@@ -142,6 +143,7 @@ This is the Gazebo URDF model for the Intel RealSense T265 camera
           <updateRate>${fisheye_fps}</updateRate>
           <cameraName>${topics_ns}/fisheye2</cameraName>
           <imageTopicName>image_raw</imageTopicName>
+          <pointCloudTopicName>/camera/depth/points2</pointCloudTopicName>
           <cameraInfoTopicName>camera_info</cameraInfoTopicName>
           <frameName>${fisheye2_optical_frame}</frameName>
           <hackBaseline>0.07</hackBaseline>
