@@ -13,3 +13,4 @@ hướng dẫn chạy thử :
 - rosrun teleop_twist_keyboard teleop_twist_keyboard.py : lệnh này chạy cho nhanh, thay vì roslaunch file teleop
 - mô hình 2d : roslaunch carmodel_description rviz.launch
 
+mở rviz : ở terminal mặc định chạy lệnh rviz -> chọn open config -> tìm đến carmodel_descruption/launch -> chọn file default.rviz 
