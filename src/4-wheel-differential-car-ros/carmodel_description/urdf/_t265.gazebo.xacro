@@ -90,6 +90,9 @@ This is the Gazebo URDF model for the Intel RealSense T265 camera
           <distortionK3>0.0</distortionK3>
           <distortionP1>-0.034823670983314514</distortionP1>
           <distortionP2>0.0052825710736215115</distortionP2>
+          <odometryFrame>odom</odometryFrame>
+          <odometryTopic>odom</odometryTopic>
+          <odometrySource>world</odometrySource>
           <Cx>416.22</Cx>
           <Cy>402.1</Cy>
           <CxPrime>416.22</CxPrime>
@@ -151,6 +154,9 @@ This is the Gazebo URDF model for the Intel RealSense T265 camera
           <distortionK2>0.03653175011277199</distortionK2>
           <distortionK3>0.0</distortionK3>
           <distortionP1>-0.034823670983314514</distortionP1>
+          <odometryFrame>odom</odometryFrame>
+          <odometryTopic>odom</odometryTopic>
+          <odometrySource>world</odometrySource>
           <distortionP2>0.0052825710736215115</distortionP2>
         </plugin>
       </sensor>

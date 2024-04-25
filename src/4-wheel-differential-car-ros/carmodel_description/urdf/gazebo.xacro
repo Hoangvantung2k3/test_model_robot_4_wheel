@@ -35,6 +35,7 @@
         <commandTopic>cmd_vel</commandTopic>
         <odometryTopic>odom</odometryTopic>
         <odometryFrame>odom</odometryFrame>
+        <odometryRate>20.0</odometryRate>
         <robotBaseFrame>base_link</robotBaseFrame>
         </plugin>
     </gazebo>
@@ -72,6 +73,9 @@
         <plugin name="gazebo_ros_head_hokuyo_controller" filename="libgazebo_ros_laser.so">
             <topicName>/m2wr/laser/scan</topicName>
             <frameName>sensor_link</frameName>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <odometryRate>20.0</odometryRate>
         </plugin>
         </sensor>
     </gazebo>
@@ -124,6 +128,7 @@
 
             
             <!-- Output -->
+            
             <odometry_frame>odom</odometry_frame>
             <robot_base_frame>base_link</robot_base_frame>
             <publish_TF>true</publish_TF>
