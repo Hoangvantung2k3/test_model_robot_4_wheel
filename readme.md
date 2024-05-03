@@ -2,8 +2,9 @@
 
 hướng dẫn chạy thử :
 - mở terminal
-- cd nơi muốn lưu file
+- cd nơi muốn lưu file 
 - git clone link
+- lưu ý đây là bao gồm toàn bộ workspace nên nếu cần thì tự tạo workspace khác xong cop sang 
 - catkin_make
 - source devel/setup.bash
 
