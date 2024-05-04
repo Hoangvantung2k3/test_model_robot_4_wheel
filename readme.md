@@ -16,4 +16,4 @@ hướng dẫn chạy thử :
 
 mở rviz : ở terminal mặc định chạy lệnh rviz -> chọn open config -> tìm đến carmodel_description/launch -> chọn file default.rviz 
 
-lưu ý: nhiều file cần cài thêm thư viện khi chạy, trong trường hợp trong máy ko có, post lỗi hiển thị ( khi khởi động ) lên mạng, sẽ có lệnh cài : sudo ...
+lưu ý: nhiều file cần cài thêm thư viện khi chạy, trong trường hợp trong máy ko có, post lỗi hiển thị ( khi khởi động ) lên mạng, sẽ có lệnh cài : sudo ... ( thường thiếu ở navigation dùng để chạy trong rviz)
