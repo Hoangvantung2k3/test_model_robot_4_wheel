@@ -15,3 +15,5 @@ hướng dẫn chạy thử :
 - mô hình 2d : roslaunch carmodel_description rviz.launch
 
 mở rviz : ở terminal mặc định chạy lệnh rviz -> chọn open config -> tìm đến carmodel_description/launch -> chọn file default.rviz 
+
+lưu ý: nhiều file cần cài thêm thư viện khi chạy, trong trường hợp trong máy ko có, post lỗi hiển thị ( khi khởi động ) lên mạng, sẽ có lệnh cài : sudo ...
