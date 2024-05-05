@@ -2611,6 +2611,32 @@ car_state_publisher/fast:
 	$(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/car_state_publisher.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/car_state_publisher.dir/build
 .PHONY : car_state_publisher/fast
 
+#=============================================================================
+# Target rules for targets named gazebo_ros_velodyne_gpu_laser
+
+# Build rule for target.
+gazebo_ros_velodyne_gpu_laser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_velodyne_gpu_laser
+.PHONY : gazebo_ros_velodyne_gpu_laser
+
+# fast build rule for target.
+gazebo_ros_velodyne_gpu_laser/fast:
+	$(MAKE) -f 4-wheel-differential-car-ros/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build.make 4-wheel-differential-car-ros/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/build
+.PHONY : gazebo_ros_velodyne_gpu_laser/fast
+
+#=============================================================================
+# Target rules for targets named gazebo_ros_velodyne_laser
+
+# Build rule for target.
+gazebo_ros_velodyne_laser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gazebo_ros_velodyne_laser
+.PHONY : gazebo_ros_velodyne_laser
+
+# fast build rule for target.
+gazebo_ros_velodyne_laser/fast:
+	$(MAKE) -f 4-wheel-differential-car-ros/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build.make 4-wheel-differential-car-ros/velodyne_gazebo_plugins/CMakeFiles/gazebo_ros_velodyne_laser.dir/build
+.PHONY : gazebo_ros_velodyne_laser/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2812,6 +2838,8 @@ help:
 	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... move"
 	@echo "... car_state_publisher"
+	@echo "... gazebo_ros_velodyne_gpu_laser"
+	@echo "... gazebo_ros_velodyne_laser"
 .PHONY : help
 
 
