@@ -16,7 +16,7 @@
                       odom_xyz="0.0 0 0.25" odom_rpy="0.0 0.0 0.0">
     <origin xyz="0.18 0.0 0.116" rpy="0.0 0.0 0.0"/>
   </xacro:sensor_t265>
-    
+ 
   <link name="base_link">
     <!-- pose and inertial -->
     <pose>0 0 0.1 0 0 0</pose>

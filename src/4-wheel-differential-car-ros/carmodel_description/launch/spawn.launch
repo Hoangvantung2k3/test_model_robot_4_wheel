@@ -25,4 +25,6 @@
     <arg name="headless" value="$(arg headless)"/>
     <arg name="debug" value="$(arg debug)"/>
   </include>
+  <arg name="rviz" default="true"/>
+  <node if="$(arg rviz)" pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="-d $(find carmodel_description)/launch/example.rviz" />
 </launch>

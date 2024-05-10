@@ -22,7 +22,8 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/include/gazebo-11"
+                "/usr/include/gazebo-11",
+                "/opt/ros/noetic/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
@@ -32,6 +33,17 @@
         },
         {
             "name": "geometry",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "cpp",
             "includePath": [
                 "${workspaceFolder}/**"
             ],
