@@ -9,11 +9,9 @@ hướng dẫn chạy thử :
 - source devel/setup.bash
 
 - model mới : roslaunch carmodel_description spawn.launch
-- rosrun gazebo_ros gazebo --verbose
 - rosrun carmodel_description o + tab + .py
-- rosrun teleop_twist_keyboard teleop_twist_keyboard.py : lệnh này chạy cho nhanh, thay vì roslaunch file teleop
-- mô hình 2d : roslaunch carmodel_description rviz.launch
+- rosrun teleop_twist_keyboard teleop_twist_keyboard.py : lệnh này chạy cho nhanh, thay vì roslaunch file teleop (rosrun carmodel_teleop carmodel_teleop_key.launch)
 
-mở rviz : ở terminal mặc định chạy lệnh rviz -> chọn open config -> tìm đến carmodel_description/launch -> chọn file default.rviz 
+mở rviz : đã khởi chạy luôn trong file launch
 
 lưu ý: nhiều file cần cài thêm thư viện khi chạy, trong trường hợp trong máy ko có, post lỗi hiển thị ( khi khởi động ) lên mạng, sẽ có lệnh cài : sudo ... ( thường thiếu ở navigation dùng để chạy trong rviz)
