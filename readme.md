@@ -13,5 +13,5 @@ hướng dẫn chạy thử :
 - rosrun teleop_twist_keyboard teleop_twist_keyboard.py : lệnh này chạy cho nhanh, thay vì roslaunch file teleop (rosrun carmodel_teleop carmodel_teleop_key.launch)
 
 mở rviz : đã khởi chạy luôn trong file launch
-
+xem thông số tọa độ thông qua camera : rostopic echo /T265_camera/odom/sample 
 lưu ý: nhiều file cần cài thêm thư viện khi chạy, trong trường hợp trong máy ko có, post lỗi hiển thị ( khi khởi động ) lên mạng, sẽ có lệnh cài : sudo ... ( thường thiếu ở navigation dùng để chạy trong rviz)
