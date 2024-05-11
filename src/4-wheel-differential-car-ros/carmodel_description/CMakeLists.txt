@@ -207,12 +207,12 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-
 add_executable(car_state_publisher src/car_state_publisher.cpp)
 target_link_libraries(car_state_publisher ${catkin_LIBRARIES})
 
 add_executable(move src/move.cpp)
 target_link_libraries(move ${catkin_LIBRARIES})
+
 if(POLICY CMP0079)
   cmake_policy(SET CMP0079 NEW)
 endif()
