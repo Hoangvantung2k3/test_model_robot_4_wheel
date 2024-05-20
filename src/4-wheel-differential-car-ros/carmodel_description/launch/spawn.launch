@@ -8,7 +8,7 @@
     <param name="publish_frequency" type="double" value="30.0" /> <!--tần số công bố thông số của robot-->
   </node>
     <!-- publish joint state-->
-  <!--<node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" /> -->
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" /> 
  <param command="$(find xacro)/xacro '$(find carmodel_description)/urdf/bot_description.xacro' organize_cloud:=$(arg organize_cloud) gpu:=$(arg gpu) " name="robot_description"/>
 
     <arg name="x" default="0"/>
