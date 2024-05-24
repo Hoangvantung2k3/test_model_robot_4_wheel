@@ -2586,6 +2586,19 @@ trajectory_msgs_generate_messages_cpp/fast:
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named BotControl
+
+# Build rule for target.
+BotControl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BotControl
+.PHONY : BotControl
+
+# fast build rule for target.
+BotControl/fast:
+	$(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build
+.PHONY : BotControl/fast
+
+#=============================================================================
 # Target rules for targets named move
 
 # Build rule for target.
@@ -2836,6 +2849,7 @@ help:
 	@echo "... gazebo_msgs_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_eus"
 	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... BotControl"
 	@echo "... move"
 	@echo "... car_state_publisher"
 	@echo "... gazebo_ros_velodyne_gpu_laser"

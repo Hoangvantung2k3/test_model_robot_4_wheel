@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule
+.PHONY : 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule
+
+# Convenience name for target.
+BotControl: 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule
+
+.PHONY : BotControl
+
+# fast build rule for target.
+BotControl/fast:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build
+.PHONY : BotControl/fast
+
+# Convenience name for target.
 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/move.dir/rule:
 	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/move.dir/rule
 .PHONY : 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/move.dir/rule
@@ -196,6 +211,33 @@ car_state_publisher: 4-wheel-differential-car-ros/carmodel_description/CMakeFile
 car_state_publisher/fast:
 	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/car_state_publisher.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/car_state_publisher.dir/build
 .PHONY : car_state_publisher/fast
+
+src/BotControl.o: src/BotControl.cpp.o
+
+.PHONY : src/BotControl.o
+
+# target to build an object file
+src/BotControl.cpp.o:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/src/BotControl.cpp.o
+.PHONY : src/BotControl.cpp.o
+
+src/BotControl.i: src/BotControl.cpp.i
+
+.PHONY : src/BotControl.i
+
+# target to preprocess a source file
+src/BotControl.cpp.i:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/src/BotControl.cpp.i
+.PHONY : src/BotControl.cpp.i
+
+src/BotControl.s: src/BotControl.cpp.s
+
+.PHONY : src/BotControl.s
+
+# target to generate assembly for a file
+src/BotControl.cpp.s:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/src/BotControl.cpp.s
+.PHONY : src/BotControl.cpp.s
 
 src/car_state_publisher.o: src/car_state_publisher.cpp.o
 
@@ -264,8 +306,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... BotControl"
 	@echo "... move"
 	@echo "... car_state_publisher"
+	@echo "... src/BotControl.o"
+	@echo "... src/BotControl.i"
+	@echo "... src/BotControl.s"
 	@echo "... src/car_state_publisher.o"
 	@echo "... src/car_state_publisher.i"
 	@echo "... src/car_state_publisher.s"

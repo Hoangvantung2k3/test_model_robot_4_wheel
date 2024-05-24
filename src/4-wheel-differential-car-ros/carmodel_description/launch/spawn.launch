@@ -9,6 +9,9 @@
   </node>
     <!-- publish joint state-->
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" /> 
+  <node pkg ="gazebo_pid" type="gazebo_pid_node" name="pid_control_node" output="screen" launch-prefix="gnome-terminal --command">
+		<rosparam command="load" file="$(find carmodel_description)/config/config.yaml"/>
+	</node>
  <param command="$(find xacro)/xacro '$(find carmodel_description)/urdf/bot_description.xacro' organize_cloud:=$(arg organize_cloud) gpu:=$(arg gpu) " name="robot_description"/>
 
     <arg name="x" default="0"/>
@@ -23,6 +26,8 @@
   <arg name="gui" default="true"/>
   <arg name="headless" default="false"/>
   <arg name="debug" default="false"/>
+
+
 
 <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
