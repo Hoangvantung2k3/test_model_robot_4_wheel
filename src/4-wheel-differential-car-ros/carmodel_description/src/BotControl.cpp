@@ -13,7 +13,7 @@ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh){
 	}
 
 	// declare all the subscriber and publisher
-	scan_sub_ = nodehandle_.subscribe("/mw2r/laser/scan", 1, &BotControl::scanCallBack, this);
+	scan_sub_ = nodehandle_.subscribe("/m2wr/laser/scan", 1, &BotControl::scanCallBack, this);
 	odom_sub_ = nodehandle_.subscribe("/odom", 1, &BotControl::odomCallBack, this);
 
 	vel_pub_ = nodehandle_.advertise<geometry_msgs::Twist>("/cmd_vel", 200);
@@ -178,6 +178,7 @@ bool BotControl::loadParam(){
 	return true;
 
 }
+// giữ cho góc luôn năm trong khoảng 360 độ
 
 double BotControl::normalizeAngle(double angle){
 	if (angle > PI){
