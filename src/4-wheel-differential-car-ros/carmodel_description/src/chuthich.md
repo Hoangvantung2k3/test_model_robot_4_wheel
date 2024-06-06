@@ -1,1 +1,2 @@
 muon xoa hai file nay di thi xoa them add_excute co trong file cmake cua carmodel_description
+bộ thông số của pid control trong file chương trình " Bot Control " bao gồm các thông số Kp, Ki, Kd,... nằm ở carmodel_description/config/config.yaml
