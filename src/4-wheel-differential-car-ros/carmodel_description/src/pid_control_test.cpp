@@ -1,5 +1,7 @@
+// bộ PID hiện tại đang tương thích nhất đối với phần làm thực tế của Giang, cũng dùng chính từ thông số Kp
 #include "BotControl.hpp"
 #include <ros/ros.h>
+
 
 using namespace botcontrol;
 
@@ -8,11 +10,9 @@ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh), last_time_(ros::T
     //load the param
     if(!loadParam()){
         ROS_ERROR("Error in loading the parameters.");
-        // ros::requestShutdown();
     }
 
     // declare all the subscriber and publisher
-    scan_sub_ = nodehandle_.subscribe("/m2wr/laser/scan", 1, &BotControl::scanCallBack, this);
     odom_sub_ = nodehandle_.subscribe("/odom", 1, &BotControl::odomCallBack, this);
 
     vel_pub_ = nodehandle_.advertise<geometry_msgs::Twist>("/cmd_vel", 200);
@@ -43,25 +43,22 @@ void BotControl::odomCallBack(const nav_msgs::OdometryConstPtr& odomMsg){
     pos_y_ = odomMsg->pose.pose.position.y;
     q_z_ = odomMsg->pose.pose.orientation.z;
     ang_z_ = q_z_ * 2.19;
-}
 
-void BotControl::scanCallBack(const sensor_msgs::LaserScan::ConstPtr& scanMsg){
-    scan_data_ = scanMsg->ranges;
-    int arr_size = scan_data_.size();
-    float smallest_dist = 100;
+    // Calculate target_distance and target_angle based on odom data
+    // Assuming target position (target_pos_x_, target_pos_y_) is given
+    float target_pos_x_ = 5.0;  // Example target position x
+    float target_pos_y_ = 5.0;  // Example target position y
 
-    for(int i = 0; i < arr_size; i++){
-        if(scan_data_[i] < smallest_dist) {
-            smallest_dist = scan_data_[i];
-            scan_ang_ = scanMsg->angle_min + scanMsg->angle_increment * i;
-        }
-    }
-    scan_range_ = smallest_dist;
+    float dx = target_pos_x_ - pos_x_;
+    float dy = target_pos_y_ - pos_y_;
+    target_distance = sqrt(dx*dx + dy*dy);
+    target_angle = atan2(dy, dx);
 
     pidAlgorithm();
 }
 
 void BotControl::pidAlgorithm(){
+
     std_msgs::Float32 linear_error;
     std_msgs::Float32 angle_error;
     std_msgs::Float32 linear_velocity;
@@ -73,8 +70,8 @@ void BotControl::pidAlgorithm(){
     last_time_ = current_time;
 
     // Update the PID-related error states
-    error_forward_ = scan_range_  - target_distance;    
-    error_angle_ =  scan_ang_ - target_angle;
+    error_forward_ = target_distance;
+    error_angle_ = target_angle - ang_z_;
 
     // Normalise the error_angle_ within [-PI, PI]
     error_angle_ = normalizeAngle(error_angle_);
