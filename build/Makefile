@@ -2586,6 +2586,19 @@ trajectory_msgs_generate_messages_cpp/fast:
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named pid_control_test
+
+# Build rule for target.
+pid_control_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pid_control_test
+.PHONY : pid_control_test
+
+# fast build rule for target.
+pid_control_test/fast:
+	$(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build
+.PHONY : pid_control_test/fast
+
+#=============================================================================
 # Target rules for targets named BotControl
 
 # Build rule for target.
@@ -2849,6 +2862,7 @@ help:
 	@echo "... gazebo_msgs_generate_messages_nodejs"
 	@echo "... gazebo_msgs_generate_messages_eus"
 	@echo "... trajectory_msgs_generate_messages_cpp"
+	@echo "... pid_control_test"
 	@echo "... BotControl"
 	@echo "... move"
 	@echo "... car_state_publisher"

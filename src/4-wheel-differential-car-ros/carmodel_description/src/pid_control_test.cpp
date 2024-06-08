@@ -1,5 +1,5 @@
 // bộ PID hiện tại đang tương thích nhất đối với phần làm thực tế của Giang, cũng dùng chính từ thông số Kp
-#include "BotControl.hpp"
+#include "pid_control_test.hpp"
 #include <ros/ros.h>
 
 

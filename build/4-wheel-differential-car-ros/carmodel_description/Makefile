@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/rule:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/rule
+.PHONY : 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/rule
+
+# Convenience name for target.
+pid_control_test: 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/rule
+
+.PHONY : pid_control_test
+
+# fast build rule for target.
+pid_control_test/fast:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build
+.PHONY : pid_control_test/fast
+
+# Convenience name for target.
 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule:
 	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule
 .PHONY : 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir/rule
@@ -293,6 +308,33 @@ src/move.cpp.s:
 	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/move.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/move.dir/src/move.cpp.s
 .PHONY : src/move.cpp.s
 
+src/pid_control_test.o: src/pid_control_test.cpp.o
+
+.PHONY : src/pid_control_test.o
+
+# target to build an object file
+src/pid_control_test.cpp.o:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/src/pid_control_test.cpp.o
+.PHONY : src/pid_control_test.cpp.o
+
+src/pid_control_test.i: src/pid_control_test.cpp.i
+
+.PHONY : src/pid_control_test.i
+
+# target to preprocess a source file
+src/pid_control_test.cpp.i:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/src/pid_control_test.cpp.i
+.PHONY : src/pid_control_test.cpp.i
+
+src/pid_control_test.s: src/pid_control_test.cpp.s
+
+.PHONY : src/pid_control_test.s
+
+# target to generate assembly for a file
+src/pid_control_test.cpp.s:
+	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/build.make 4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir/src/pid_control_test.cpp.s
+.PHONY : src/pid_control_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,6 +348,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... pid_control_test"
 	@echo "... BotControl"
 	@echo "... move"
 	@echo "... car_state_publisher"
@@ -318,6 +361,9 @@ help:
 	@echo "... src/move.o"
 	@echo "... src/move.i"
 	@echo "... src/move.s"
+	@echo "... src/pid_control_test.o"
+	@echo "... src/pid_control_test.i"
+	@echo "... src/pid_control_test.s"
 .PHONY : help
 
 

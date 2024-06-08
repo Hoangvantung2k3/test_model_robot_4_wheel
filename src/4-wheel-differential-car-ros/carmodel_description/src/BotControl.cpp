@@ -1,3 +1,4 @@
+// bản PID đầy đủ bộ ba thông số Kp, Ki, Kd
 #include "BotControl.hpp"
 #include <ros/ros.h>
 

@@ -216,6 +216,9 @@ target_link_libraries(move ${catkin_LIBRARIES})
 add_executable(BotControl src/BotControl.cpp)
 target_link_libraries(BotControl ${catkin_LIBRARIES})
 
+add_executable(pid_control_test src/pid_control_test.cpp)
+target_link_libraries(pid_control_test ${catkin_LIBRARIES})
+
 if(POLICY CMP0079)
   cmake_policy(SET CMP0079 NEW)
 endif()
