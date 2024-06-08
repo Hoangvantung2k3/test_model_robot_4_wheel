@@ -52,6 +52,7 @@ private:
 	double init_x,init_y,init_ang;
 
 public:
+	ros::Time last_time_; 
 
 	double dt;
 	double target_distance, target_angle;

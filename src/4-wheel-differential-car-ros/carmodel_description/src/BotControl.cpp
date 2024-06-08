@@ -4,7 +4,8 @@
 
 using namespace botcontrol;
 
-BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh){
+ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh), last_time_(ros::Time::now()){
+// BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh), last_time_(ros::Time::now()){
 
 	//load the param
 	if(!loadParam()){
@@ -24,6 +25,7 @@ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh){
 
 	//initialize variables
 	//ENTER YOUR CODE HERE TO INITIALISE
+	// khai báo các biến
 	error_forward_ 		= 0;
 	error_forward_prev_ = 0;
 	error_angle_ 		= 0;
@@ -72,7 +74,9 @@ void BotControl::pidAlgorithm(){
 	std_msgs::Float32 angle_velocity;
 
 	//ENTER YOUR CODE HERE FOR PID COMPUTATION
-
+	ros::Time current_time = ros::Time::now();
+    dt = (current_time - last_time_).toSec();
+    last_time_ = current_time;
 	// update the PID-related error states
 	error_forward_ = scan_range_  - target_distance;	
 	error_angle_ =  scan_ang_ - target_angle;
@@ -83,6 +87,8 @@ void BotControl::pidAlgorithm(){
 	//define proportional term
 	P_angle_ 	= Kp_a * error_angle_;
 	P_forward_ 	= Kp_f * error_forward_;
+
+
 
 	// define integral term
 	I_angle_ 	+= error_angle_ * dt;
@@ -96,12 +102,18 @@ void BotControl::pidAlgorithm(){
 	trans_forward_ 	= P_forward_ + Ki_f*I_forward_ + D_forward_;
 	trans_angle_ 	= -(P_angle_ + Ki_a*I_angle_ + D_angle_);
 
+	//trans_forward_ = P_forward_ + 1.0;  // Thêm hằng số tương đối, dùng trong trường hợp chỉ dụng chir số Kp
+    //trans_angle_ = -(P_angle_ + 1.0);   // Thêm hằng số tương đối, dùng trong trường hợp chỉ dùng chỉ số Kp
+
 	error_forward_prev_ = error_forward_;
 	error_angle_prev_ 	= error_angle_;
 
 	// set threshold (optional)
 	trans_forward_ = std::max(0.0, std::min(trans_forward_, 7.0));
 
+
+
+// dòng để hiên thị các thông số ở đây
 
 	//END OF PID COMPUTATION
 	ROS_INFO("Forward Velocity: %f; Angle Velocity: %f; Orientation_error: %f, Distance: %f", 
