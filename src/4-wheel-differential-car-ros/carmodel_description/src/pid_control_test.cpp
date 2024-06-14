@@ -38,8 +38,7 @@ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh), last_time_(ros::T
     trans_angle_ = 0;
 
     ROS_INFO("Node Initialized");
-    double target_x_;
-    double target_y_;
+
     std::cout << "Enter target X coordinate: ";
     std::cin >> target_x_;
     std::cout << "Enter target Y coordinate: ";

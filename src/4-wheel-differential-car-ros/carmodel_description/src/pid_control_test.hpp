@@ -51,7 +51,8 @@ private:
 
 public:
 	ros::Time last_time_; 
-
+	double target_x_;
+    double target_y_;
 	double dt;
 	double target_distance, target_angle;
 	double Kp_f, Ki_f, Kd_f;
