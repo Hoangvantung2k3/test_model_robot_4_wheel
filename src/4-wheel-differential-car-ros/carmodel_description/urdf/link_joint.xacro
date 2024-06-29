@@ -1,4 +1,5 @@
 <?xml version="1.0" ?>
+<!--tạo laser sensor-->
 <robot name="m2wr" xmlns:xacro="https://www.ros.org/wiki/xacro" >   <!-- this second parameter is importent to make this file a valid xacro file -->
 <!-- old joint-link wheel -->
  <!--   <xacro:macro name="joint_wheel" params="name param_xyz child">

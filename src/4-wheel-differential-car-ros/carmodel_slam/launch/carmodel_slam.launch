@@ -1,6 +1,6 @@
 <launch>
   <!-- mrobot -->
-  <include file="$(find carmodel_description)/launch/02-drive.launch" />
+  <include file="$(find carmodel_description)/launch/spawn.launch" />
 
   <arg name="scan_topic" default="scan" />
 
