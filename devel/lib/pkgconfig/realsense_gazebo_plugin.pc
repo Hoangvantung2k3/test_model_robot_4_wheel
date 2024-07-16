@@ -1,4 +1,4 @@
-prefix=/home/tung/4-wheel-differential-car-ros/devel
+prefix=/home/tung/test_model_robot_4_wheel/devel
 
 Name: realsense_gazebo_plugin
 Description: Description of realsense_gazebo_plugin

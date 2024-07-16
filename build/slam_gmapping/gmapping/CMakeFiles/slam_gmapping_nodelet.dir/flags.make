@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"gmapping\" -Dslam_gmapping_nodelet_EXPORTS
 
-CXX_INCLUDES = -I/home/tung/4-wheel-differential-car-ros/devel/include -I/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/tung/4-wheel-differential-car-ros/src/slam_gmapping/gmapping/src 
+CXX_INCLUDES = -I/home/tung/test_model_robot_4_wheel/devel/include -I/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/tung/test_model_robot_4_wheel/src/slam_gmapping/gmapping/src 
 

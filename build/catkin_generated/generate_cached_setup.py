@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/tung/4-wheel-differential-car-ros/devel/env.sh')
+code = generate_environment_script('/home/tung/test_model_robot_4_wheel/devel/env.sh')
 
-output_filename = '/home/tung/4-wheel-differential-car-ros/build/catkin_generated/setup_cached.sh'
+output_filename = '/home/tung/test_model_robot_4_wheel/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

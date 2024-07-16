@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_range.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_range.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libsensor_range.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libsensor_range.so"
   "CMakeFiles/sensor_range.dir/sensor/sensor_range/rangereading.cpp.o"
   "CMakeFiles/sensor_range.dir/sensor/sensor_range/rangesensor.cpp.o"
 )

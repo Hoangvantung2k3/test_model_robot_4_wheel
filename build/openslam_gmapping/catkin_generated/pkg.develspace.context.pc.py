@@ -1,8 +1,8 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include;/home/tung/4-wheel-differential-car-ros/devel/include".split(';') if "/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include;/home/tung/4-wheel-differential-car-ros/devel/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include;/home/tung/test_model_robot_4_wheel/devel/include".split(';') if "/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include;/home/tung/test_model_robot_4_wheel/devel/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lutils;-lsensor_base;-lsensor_odometry;-lsensor_range;-llog;-lconfigfile;-lscanmatcher;-lgridfastslam".split(';') if "-lutils;-lsensor_base;-lsensor_odometry;-lsensor_range;-llog;-lconfigfile;-lscanmatcher;-lgridfastslam" != "" else []
 PROJECT_NAME = "openslam_gmapping"
-PROJECT_SPACE_DIR = "/home/tung/4-wheel-differential-car-ros/devel"
+PROJECT_SPACE_DIR = "/home/tung/test_model_robot_4_wheel/devel"
 PROJECT_VERSION = "0.2.1"

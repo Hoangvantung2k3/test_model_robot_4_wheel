@@ -1,2 +1,2 @@
 4-wheel-differential-car-ros/carmodel_description:4-wheel-differential-car-ros/carmodel_nav:4-wheel-differential-car-ros/carmodel_slam:4-wheel-differential-car-ros/carmodel_teleop:4-wheel-differential-car-ros/realsense_gazebo_plugin:4-wheel-differential-car-ros/velodyne_gazebo_plugins:4-wheel-differential-car-ros/velodyne_simulator:navigation_msgs/map_msgs:navigation_msgs/move_base_msgs:openslam_gmapping:slam_gmapping/gmapping:slam_gmapping/slam_gmapping
--DCATKIN_DEVEL_PREFIX=/home/tung/4-wheel-differential-car-ros/devel -DCMAKE_INSTALL_PREFIX=/home/tung/4-wheel-differential-car-ros/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/tung/test_model_robot_4_wheel/devel -DCMAKE_INSTALL_PREFIX=/home/tung/test_model_robot_4_wheel/install -G Unix Makefiles

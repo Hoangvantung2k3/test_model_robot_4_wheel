@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tung/4-wheel-differential-car-ros/src
+CMAKE_SOURCE_DIR = /home/tung/test_model_robot_4_wheel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tung/4-wheel-differential-car-ros/build
+CMAKE_BINARY_DIR = /home/tung/test_model_robot_4_wheel/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/4-wheel-differential-car-ros/src /home/tung/4-wheel-differential-car-ros/src /home/tung/4-wheel-differential-car-ros/build /home/tung/4-wheel-differential-car-ros/build /home/tung/4-wheel-differential-car-ros/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/test_model_robot_4_wheel/src /home/tung/test_model_robot_4_wheel/src /home/tung/test_model_robot_4_wheel/build /home/tung/test_model_robot_4_wheel/build /home/tung/test_model_robot_4_wheel/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

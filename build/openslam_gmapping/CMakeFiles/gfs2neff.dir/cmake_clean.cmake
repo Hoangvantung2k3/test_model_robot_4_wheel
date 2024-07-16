@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/openslam_gmapping/gfs2neff"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/openslam_gmapping/gfs2neff.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/openslam_gmapping/gfs2neff"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/openslam_gmapping/gfs2neff.pdb"
   "CMakeFiles/gfs2neff.dir/gridfastslam/gfs2neff.cpp.o"
 )
 

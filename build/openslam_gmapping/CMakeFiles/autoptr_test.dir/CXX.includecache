@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include/gmapping/utils/autoptr.h
+/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include/gmapping/utils/autoptr.h
 assert.h
 -
 
-/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/utils/autoptr_test.cpp
+/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/utils/autoptr_test.cpp
 iostream
 -
 gmapping/utils/autoptr.h
-/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/utils/gmapping/utils/autoptr.h
+/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/utils/gmapping/utils/autoptr.h
 

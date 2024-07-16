@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tung/4-wheel-differential-car-ros/src
+CMAKE_SOURCE_DIR = /home/tung/test_model_robot_4_wheel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tung/4-wheel-differential-car-ros/build
+CMAKE_BINARY_DIR = /home/tung/test_model_robot_4_wheel/build
 
 # Utility rule file for trajectory_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ trajectory_msgs_generate_messages_cpp: 4-wheel-differential-car-ros/realsense_ga
 .PHONY : 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 
 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean:
-	cd /home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/realsense_gazebo_plugin && $(CMAKE_COMMAND) -P CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/clean
 
 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/4-wheel-differential-car-ros/src /home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/4-wheel-differential-car-ros/build /home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/test_model_robot_4_wheel/src /home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/test_model_robot_4_wheel/build /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/depend
 

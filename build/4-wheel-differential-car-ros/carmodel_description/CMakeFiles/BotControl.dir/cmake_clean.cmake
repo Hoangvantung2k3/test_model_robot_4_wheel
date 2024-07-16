@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/BotControl"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/BotControl.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/BotControl"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/BotControl.pdb"
   "CMakeFiles/BotControl.dir/src/BotControl.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libscanmatcher.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libscanmatcher.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libscanmatcher.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libscanmatcher.so"
   "CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o"
   "CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o"
   "CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o"

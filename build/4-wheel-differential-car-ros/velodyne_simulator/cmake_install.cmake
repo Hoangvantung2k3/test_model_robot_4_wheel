@@ -1,8 +1,8 @@
-# Install script for directory: /home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/velodyne_simulator
+# Install script for directory: /home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/velodyne_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tung/4-wheel-differential-car-ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tung/test_model_robot_4_wheel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_simulator" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/velodyne_simulator/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/velodyne_simulator" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/velodyne_simulator/package.xml")
 endif()
 

@@ -1,4 +1,4 @@
-prefix=/home/tung/4-wheel-differential-car-ros/devel
+prefix=/home/tung/test_model_robot_4_wheel/devel
 
 Name: carmodel_slam
 Description: Description of carmodel_slam

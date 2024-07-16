@@ -1,4 +1,4 @@
-prefix=/home/tung/4-wheel-differential-car-ros/install
+prefix=/home/tung/test_model_robot_4_wheel/install
 
 Name: gmapping
 Description: Description of gmapping

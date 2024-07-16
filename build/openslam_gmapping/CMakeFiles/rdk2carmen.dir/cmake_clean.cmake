@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/openslam_gmapping/rdk2carmen"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/openslam_gmapping/rdk2carmen.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/openslam_gmapping/rdk2carmen"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/openslam_gmapping/rdk2carmen.pdb"
   "CMakeFiles/rdk2carmen.dir/log/rdk2carmen.cpp.o"
 )
 

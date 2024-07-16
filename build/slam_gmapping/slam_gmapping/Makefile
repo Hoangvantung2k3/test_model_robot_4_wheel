@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tung/4-wheel-differential-car-ros/src
+CMAKE_SOURCE_DIR = /home/tung/test_model_robot_4_wheel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tung/4-wheel-differential-car-ros/build
+CMAKE_BINARY_DIR = /home/tung/test_model_robot_4_wheel/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tung/4-wheel-differential-car-ros/build/CMakeFiles /home/tung/4-wheel-differential-car-ros/build/slam_gmapping/slam_gmapping/CMakeFiles/progress.marks
-	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tung/4-wheel-differential-car-ros/build/CMakeFiles 0
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tung/test_model_robot_4_wheel/build/CMakeFiles /home/tung/test_model_robot_4_wheel/build/slam_gmapping/slam_gmapping/CMakeFiles/progress.marks
+	cd /home/tung/test_model_robot_4_wheel/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tung/test_model_robot_4_wheel/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/clean
+	cd /home/tung/test_model_robot_4_wheel/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
+	cd /home/tung/test_model_robot_4_wheel/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
+	cd /home/tung/test_model_robot_4_wheel/build && $(MAKE) -f CMakeFiles/Makefile2 slam_gmapping/slam_gmapping/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

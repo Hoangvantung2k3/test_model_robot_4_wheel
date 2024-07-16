@@ -67,14 +67,14 @@ set(move_base_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(move_base_msgs_SOURCE_PREFIX /home/tung/4-wheel-differential-car-ros/src/navigation_msgs/move_base_msgs)
-  set(move_base_msgs_DEVEL_PREFIX /home/tung/4-wheel-differential-car-ros/devel)
+  set(move_base_msgs_SOURCE_PREFIX /home/tung/test_model_robot_4_wheel/src/navigation_msgs/move_base_msgs)
+  set(move_base_msgs_DEVEL_PREFIX /home/tung/test_model_robot_4_wheel/devel)
   set(move_base_msgs_INSTALL_PREFIX "")
   set(move_base_msgs_PREFIX ${move_base_msgs_DEVEL_PREFIX})
 else()
   set(move_base_msgs_SOURCE_PREFIX "")
   set(move_base_msgs_DEVEL_PREFIX "")
-  set(move_base_msgs_INSTALL_PREFIX /home/tung/4-wheel-differential-car-ros/install)
+  set(move_base_msgs_INSTALL_PREFIX /home/tung/test_model_robot_4_wheel/install)
   set(move_base_msgs_PREFIX ${move_base_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tung/4-wheel-differential-car-ros/install/lib;/home/tung/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tung/test_model_robot_4_wheel/install/lib;/home/tung/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

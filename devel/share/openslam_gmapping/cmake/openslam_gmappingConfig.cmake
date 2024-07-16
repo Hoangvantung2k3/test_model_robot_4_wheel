@@ -67,14 +67,14 @@ set(openslam_gmapping_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(openslam_gmapping_SOURCE_PREFIX /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping)
-  set(openslam_gmapping_DEVEL_PREFIX /home/tung/4-wheel-differential-car-ros/devel)
+  set(openslam_gmapping_SOURCE_PREFIX /home/tung/test_model_robot_4_wheel/src/openslam_gmapping)
+  set(openslam_gmapping_DEVEL_PREFIX /home/tung/test_model_robot_4_wheel/devel)
   set(openslam_gmapping_INSTALL_PREFIX "")
   set(openslam_gmapping_PREFIX ${openslam_gmapping_DEVEL_PREFIX})
 else()
   set(openslam_gmapping_SOURCE_PREFIX "")
   set(openslam_gmapping_DEVEL_PREFIX "")
-  set(openslam_gmapping_INSTALL_PREFIX /home/tung/4-wheel-differential-car-ros/install)
+  set(openslam_gmapping_INSTALL_PREFIX /home/tung/test_model_robot_4_wheel/install)
   set(openslam_gmapping_PREFIX ${openslam_gmapping_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(openslam_gmapping_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include;/home/tung/4-wheel-differential-car-ros/devel/include " STREQUAL " ")
+if(NOT "/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include;/home/tung/test_model_robot_4_wheel/devel/include " STREQUAL " ")
   set(openslam_gmapping_INCLUDE_DIRS "")
-  set(_include_dirs "/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include;/home/tung/4-wheel-differential-car-ros/devel/include")
+  set(_include_dirs "/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include;/home/tung/test_model_robot_4_wheel/devel/include")
   if(NOT "https://github.com/ros-perception/openslam_gmapping/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-perception/openslam_gmapping/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://openslam.org/gmapping " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include;/h
         message(FATAL_ERROR "Project 'openslam_gmapping' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'openslam_gmapping' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'openslam_gmapping' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/${idir}'.  ${_report}")
     endif()
     _list_append_unique(openslam_gmapping_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tung/4-wheel-differential-car-ros/devel/lib;/home/tung/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tung/test_model_robot_4_wheel/devel/lib;/home/tung/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

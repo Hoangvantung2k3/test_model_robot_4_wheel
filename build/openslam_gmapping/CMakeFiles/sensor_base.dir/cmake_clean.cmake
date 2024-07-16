@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_base.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_base.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libsensor_base.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libsensor_base.so"
   "CMakeFiles/sensor_base.dir/sensor/sensor_base/sensor.cpp.o"
   "CMakeFiles/sensor_base.dir/sensor/sensor_base/sensorreading.cpp.o"
 )

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libgridfastslam.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libgridfastslam.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libgridfastslam.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libgridfastslam.so"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gfsreader.cpp.o"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor.cpp.o"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor_tree.cpp.o"

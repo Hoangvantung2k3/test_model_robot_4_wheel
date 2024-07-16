@@ -1,8 +1,8 @@
-# Install script for directory: /home/tung/4-wheel-differential-car-ros/src/navigation_msgs/move_base_msgs
+# Install script for directory: /home/tung/test_model_robot_4_wheel/src/navigation_msgs/move_base_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tung/4-wheel-differential-car-ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tung/test_model_robot_4_wheel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,69 +38,69 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/msg" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/move_base_msgs/msg/RecoveryStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/msg" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/move_base_msgs/msg/RecoveryStatus.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/action" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/move_base_msgs/action/MoveBase.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/action" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/move_base_msgs/action/MoveBase.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/msg" TYPE FILE FILES
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseAction.msg"
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseActionGoal.msg"
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseActionResult.msg"
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseActionFeedback.msg"
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseGoal.msg"
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseResult.msg"
-    "/home/tung/4-wheel-differential-car-ros/devel/share/move_base_msgs/msg/MoveBaseFeedback.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseAction.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseActionGoal.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseActionResult.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseActionFeedback.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseGoal.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseResult.msg"
+    "/home/tung/test_model_robot_4_wheel/devel/share/move_base_msgs/msg/MoveBaseFeedback.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/cmake" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/cmake" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/share/roseus/ros/move_base_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/share/roseus/ros/move_base_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/share/common-lisp/ros/move_base_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/share/common-lisp/ros/move_base_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/share/gennodejs/ros/move_base_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/share/gennodejs/ros/move_base_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tung/4-wheel-differential-car-ros/devel/lib/python3/dist-packages/move_base_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tung/test_model_robot_4_wheel/devel/lib/python3/dist-packages/move_base_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/lib/python3/dist-packages/move_base_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/lib/python3/dist-packages/move_base_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/cmake" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/cmake" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs/cmake" TYPE FILE FILES
-    "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgsConfig.cmake"
-    "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgsConfig-version.cmake"
+    "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgsConfig.cmake"
+    "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/move_base_msgs/catkin_generated/installspace/move_base_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/move_base_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/move_base_msgs" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/move_base_msgs/package.xml")
 endif()
 

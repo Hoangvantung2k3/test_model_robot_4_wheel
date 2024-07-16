@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/tung/4-wheel-differential-car-ros/devel/include/gmapping/configfile/configfile_export.h
+/home/tung/test_model_robot_4_wheel/devel/include/gmapping/configfile/configfile_export.h
 
-/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/configfile/configfile_test.cpp
+/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/configfile/configfile_test.cpp
 cstdlib
 -
 iostream
 -
 gmapping/configfile/configfile.h
-/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/configfile/gmapping/configfile/configfile.h
+/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/configfile/gmapping/configfile/configfile.h
 
-/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include/gmapping/configfile/configfile.h
+/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include/gmapping/configfile/configfile.h
 iostream
 -
 string

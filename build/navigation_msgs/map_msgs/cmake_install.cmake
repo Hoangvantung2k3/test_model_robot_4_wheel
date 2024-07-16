@@ -1,8 +1,8 @@
-# Install script for directory: /home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs
+# Install script for directory: /home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tung/4-wheel-differential-car-ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/tung/test_model_robot_4_wheel/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,68 +39,68 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/msg" TYPE FILE FILES
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/msg/OccupancyGridUpdate.msg"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/msg/PointCloud2Update.msg"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/msg/ProjectedMapInfo.msg"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/msg/ProjectedMap.msg"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/msg/OccupancyGridUpdate.msg"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/msg/PointCloud2Update.msg"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/msg/ProjectedMapInfo.msg"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/msg/ProjectedMap.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/srv" TYPE FILE FILES
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/srv/GetMapROI.srv"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/srv/GetPointMapROI.srv"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/srv/GetPointMap.srv"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/srv/ProjectedMapsInfo.srv"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/srv/SaveMap.srv"
-    "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/srv/SetMapProjections.srv"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/srv/GetMapROI.srv"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/srv/GetPointMapROI.srv"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/srv/GetPointMap.srv"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/srv/ProjectedMapsInfo.srv"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/srv/SaveMap.srv"
+    "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/srv/SetMapProjections.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/cmake" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/cmake" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/include/map_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/include/map_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/share/roseus/ros/map_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/share/roseus/ros/map_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/share/common-lisp/ros/map_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/share/common-lisp/ros/map_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/share/gennodejs/ros/map_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/share/gennodejs/ros/map_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tung/4-wheel-differential-car-ros/devel/lib/python3/dist-packages/map_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tung/test_model_robot_4_wheel/devel/lib/python3/dist-packages/map_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/tung/4-wheel-differential-car-ros/devel/lib/python3/dist-packages/map_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/tung/test_model_robot_4_wheel/devel/lib/python3/dist-packages/map_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/cmake" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/cmake" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs/cmake" TYPE FILE FILES
-    "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgsConfig.cmake"
-    "/home/tung/4-wheel-differential-car-ros/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgsConfig-version.cmake"
+    "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgsConfig.cmake"
+    "/home/tung/test_model_robot_4_wheel/build/navigation_msgs/map_msgs/catkin_generated/installspace/map_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs" TYPE FILE FILES "/home/tung/4-wheel-differential-car-ros/src/navigation_msgs/map_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_msgs" TYPE FILE FILES "/home/tung/test_model_robot_4_wheel/src/navigation_msgs/map_msgs/package.xml")
 endif()
 

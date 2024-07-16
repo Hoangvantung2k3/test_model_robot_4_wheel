@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/liblog.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so"
   "CMakeFiles/log.dir/log/carmenconfiguration.cpp.o"
   "CMakeFiles/log.dir/log/configuration.cpp.o"
   "CMakeFiles/log.dir/log/sensorlog.cpp.o"

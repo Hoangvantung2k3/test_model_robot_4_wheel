@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libconfigfile.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libconfigfile.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libconfigfile.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libconfigfile.so"
   "CMakeFiles/configfile.dir/configfile/configfile.cpp.o"
 )
 

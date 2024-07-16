@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_odometry.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_odometry.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libsensor_odometry.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libsensor_odometry.so"
   "CMakeFiles/sensor_odometry.dir/sensor/sensor_odometry/odometryreading.cpp.o"
   "CMakeFiles/sensor_odometry.dir/sensor/sensor_odometry/odometrysensor.cpp.o"
 )

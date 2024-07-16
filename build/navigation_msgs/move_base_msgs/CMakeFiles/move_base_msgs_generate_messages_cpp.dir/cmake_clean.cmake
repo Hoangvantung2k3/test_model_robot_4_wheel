@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseAction.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseActionFeedback.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseActionGoal.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseActionResult.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseFeedback.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseGoal.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/MoveBaseResult.h"
-  "/home/tung/4-wheel-differential-car-ros/devel/include/move_base_msgs/RecoveryStatus.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseAction.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseActionFeedback.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseActionGoal.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseActionResult.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseFeedback.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseGoal.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/MoveBaseResult.h"
+  "/home/tung/test_model_robot_4_wheel/devel/include/move_base_msgs/RecoveryStatus.h"
   "CMakeFiles/move_base_msgs_generate_messages_cpp"
 )
 

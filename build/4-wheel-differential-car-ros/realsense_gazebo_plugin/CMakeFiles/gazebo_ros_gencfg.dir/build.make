@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tung/4-wheel-differential-car-ros/src
+CMAKE_SOURCE_DIR = /home/tung/test_model_robot_4_wheel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tung/4-wheel-differential-car-ros/build
+CMAKE_BINARY_DIR = /home/tung/test_model_robot_4_wheel/build
 
 # Utility rule file for gazebo_ros_gencfg.
 
@@ -63,10 +63,10 @@ gazebo_ros_gencfg: 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFil
 .PHONY : 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/build
 
 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/clean:
-	cd /home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_ros_gencfg.dir/cmake_clean.cmake
+	cd /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/realsense_gazebo_plugin && $(CMAKE_COMMAND) -P CMakeFiles/gazebo_ros_gencfg.dir/cmake_clean.cmake
 .PHONY : 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/clean
 
 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/depend:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/4-wheel-differential-car-ros/src /home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/4-wheel-differential-car-ros/build /home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/4-wheel-differential-car-ros/build/4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/test_model_robot_4_wheel/src /home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/test_model_robot_4_wheel/build /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/realsense_gazebo_plugin /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 4-wheel-differential-car-ros/realsense_gazebo_plugin/CMakeFiles/gazebo_ros_gencfg.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tung/4-wheel-differential-car-ros/src
+CMAKE_SOURCE_DIR = /home/tung/test_model_robot_4_wheel/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tung/4-wheel-differential-car-ros/build
+CMAKE_BINARY_DIR = /home/tung/test_model_robot_4_wheel/build
 
 # Include any dependencies generated for this target.
 include openslam_gmapping/CMakeFiles/log.dir/depend.make
@@ -58,56 +58,56 @@ include openslam_gmapping/CMakeFiles/log.dir/progress.make
 include openslam_gmapping/CMakeFiles/log.dir/flags.make
 
 openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o: openslam_gmapping/CMakeFiles/log.dir/flags.make
-openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o: /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/4-wheel-differential-car-ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/configuration.cpp.o -c /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/configuration.cpp
+openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o: /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/configuration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/test_model_robot_4_wheel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o"
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/configuration.cpp.o -c /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/configuration.cpp
 
 openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/log.dir/log/configuration.cpp.i"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/configuration.cpp > CMakeFiles/log.dir/log/configuration.cpp.i
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/configuration.cpp > CMakeFiles/log.dir/log/configuration.cpp.i
 
 openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/log/configuration.cpp.s"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/configuration.cpp -o CMakeFiles/log.dir/log/configuration.cpp.s
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/configuration.cpp -o CMakeFiles/log.dir/log/configuration.cpp.s
 
 openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o: openslam_gmapping/CMakeFiles/log.dir/flags.make
-openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o: /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/carmenconfiguration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/4-wheel-differential-car-ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/carmenconfiguration.cpp.o -c /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/carmenconfiguration.cpp
+openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o: /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/carmenconfiguration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/test_model_robot_4_wheel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o"
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/carmenconfiguration.cpp.o -c /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/carmenconfiguration.cpp
 
 openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/log.dir/log/carmenconfiguration.cpp.i"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/carmenconfiguration.cpp > CMakeFiles/log.dir/log/carmenconfiguration.cpp.i
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/carmenconfiguration.cpp > CMakeFiles/log.dir/log/carmenconfiguration.cpp.i
 
 openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/log/carmenconfiguration.cpp.s"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/carmenconfiguration.cpp -o CMakeFiles/log.dir/log/carmenconfiguration.cpp.s
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/carmenconfiguration.cpp -o CMakeFiles/log.dir/log/carmenconfiguration.cpp.s
 
 openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o: openslam_gmapping/CMakeFiles/log.dir/flags.make
-openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o: /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorlog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/4-wheel-differential-car-ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/sensorlog.cpp.o -c /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorlog.cpp
+openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o: /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorlog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/test_model_robot_4_wheel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o"
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/sensorlog.cpp.o -c /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorlog.cpp
 
 openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/log.dir/log/sensorlog.cpp.i"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorlog.cpp > CMakeFiles/log.dir/log/sensorlog.cpp.i
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorlog.cpp > CMakeFiles/log.dir/log/sensorlog.cpp.i
 
 openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/log/sensorlog.cpp.s"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorlog.cpp -o CMakeFiles/log.dir/log/sensorlog.cpp.s
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorlog.cpp -o CMakeFiles/log.dir/log/sensorlog.cpp.s
 
 openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o: openslam_gmapping/CMakeFiles/log.dir/flags.make
-openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o: /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorstream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/4-wheel-differential-car-ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/sensorstream.cpp.o -c /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorstream.cpp
+openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o: /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorstream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tung/test_model_robot_4_wheel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o"
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/log.dir/log/sensorstream.cpp.o -c /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorstream.cpp
 
 openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/log.dir/log/sensorstream.cpp.i"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorstream.cpp > CMakeFiles/log.dir/log/sensorstream.cpp.i
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorstream.cpp > CMakeFiles/log.dir/log/sensorstream.cpp.i
 
 openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/log.dir/log/sensorstream.cpp.s"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/log/sensorstream.cpp -o CMakeFiles/log.dir/log/sensorstream.cpp.s
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tung/test_model_robot_4_wheel/src/openslam_gmapping/log/sensorstream.cpp -o CMakeFiles/log.dir/log/sensorstream.cpp.s
 
 # Object files for target log
 log_OBJECTS = \
@@ -119,28 +119,28 @@ log_OBJECTS = \
 # External object files for target log
 log_EXTERNAL_OBJECTS =
 
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/build.make
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: /home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_range.so
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: /home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_odometry.so
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: /home/tung/4-wheel-differential-car-ros/devel/lib/libsensor_base.so
-/home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tung/4-wheel-differential-car-ros/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so"
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log.dir/link.txt --verbose=$(VERBOSE)
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/configuration.cpp.o
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/carmenconfiguration.cpp.o
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/sensorlog.cpp.o
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/log/sensorstream.cpp.o
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/build.make
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: /home/tung/test_model_robot_4_wheel/devel/lib/libsensor_range.so
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: /home/tung/test_model_robot_4_wheel/devel/lib/libsensor_odometry.so
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: /home/tung/test_model_robot_4_wheel/devel/lib/libsensor_base.so
+/home/tung/test_model_robot_4_wheel/devel/lib/liblog.so: openslam_gmapping/CMakeFiles/log.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tung/test_model_robot_4_wheel/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/tung/test_model_robot_4_wheel/devel/lib/liblog.so"
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/log.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-openslam_gmapping/CMakeFiles/log.dir/build: /home/tung/4-wheel-differential-car-ros/devel/lib/liblog.so
+openslam_gmapping/CMakeFiles/log.dir/build: /home/tung/test_model_robot_4_wheel/devel/lib/liblog.so
 
 .PHONY : openslam_gmapping/CMakeFiles/log.dir/build
 
 openslam_gmapping/CMakeFiles/log.dir/clean:
-	cd /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/log.dir/cmake_clean.cmake
+	cd /home/tung/test_model_robot_4_wheel/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/log.dir/cmake_clean.cmake
 .PHONY : openslam_gmapping/CMakeFiles/log.dir/clean
 
 openslam_gmapping/CMakeFiles/log.dir/depend:
-	cd /home/tung/4-wheel-differential-car-ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/4-wheel-differential-car-ros/src /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping /home/tung/4-wheel-differential-car-ros/build /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping /home/tung/4-wheel-differential-car-ros/build/openslam_gmapping/CMakeFiles/log.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tung/test_model_robot_4_wheel/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tung/test_model_robot_4_wheel/src /home/tung/test_model_robot_4_wheel/src/openslam_gmapping /home/tung/test_model_robot_4_wheel/build /home/tung/test_model_robot_4_wheel/build/openslam_gmapping /home/tung/test_model_robot_4_wheel/build/openslam_gmapping/CMakeFiles/log.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : openslam_gmapping/CMakeFiles/log.dir/depend
 

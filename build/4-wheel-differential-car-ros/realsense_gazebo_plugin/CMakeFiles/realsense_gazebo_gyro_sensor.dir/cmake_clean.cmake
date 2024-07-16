@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/librealsense_gazebo_gyro_sensor.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/librealsense_gazebo_gyro_sensor.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/librealsense_gazebo_gyro_sensor.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/librealsense_gazebo_gyro_sensor.so"
   "CMakeFiles/realsense_gazebo_gyro_sensor.dir/src/gazebo_ros_gyro_sensor.cpp.o"
 )
 

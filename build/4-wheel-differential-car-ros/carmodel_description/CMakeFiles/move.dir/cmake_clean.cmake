@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/move"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/move.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/move"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/move.pdb"
   "CMakeFiles/move.dir/src/move.cpp.o"
 )
 

@@ -67,14 +67,14 @@ set(openslam_gmapping_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(openslam_gmapping_SOURCE_PREFIX /home/tung/4-wheel-differential-car-ros/src/openslam_gmapping)
-  set(openslam_gmapping_DEVEL_PREFIX /home/tung/4-wheel-differential-car-ros/devel)
+  set(openslam_gmapping_SOURCE_PREFIX /home/tung/test_model_robot_4_wheel/src/openslam_gmapping)
+  set(openslam_gmapping_DEVEL_PREFIX /home/tung/test_model_robot_4_wheel/devel)
   set(openslam_gmapping_INSTALL_PREFIX "")
   set(openslam_gmapping_PREFIX ${openslam_gmapping_DEVEL_PREFIX})
 else()
   set(openslam_gmapping_SOURCE_PREFIX "")
   set(openslam_gmapping_DEVEL_PREFIX "")
-  set(openslam_gmapping_INSTALL_PREFIX /home/tung/4-wheel-differential-car-ros/install)
+  set(openslam_gmapping_INSTALL_PREFIX /home/tung/test_model_robot_4_wheel/install)
   set(openslam_gmapping_PREFIX ${openslam_gmapping_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/tung/4-wheel-differential-car-ros/install/lib;/home/tung/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/tung/test_model_robot_4_wheel/install/lib;/home/tung/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

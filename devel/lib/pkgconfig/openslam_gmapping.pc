@@ -1,8 +1,8 @@
-prefix=/home/tung/4-wheel-differential-car-ros/devel
+prefix=/home/tung/test_model_robot_4_wheel/devel
 
 Name: openslam_gmapping
 Description: Description of openslam_gmapping
 Version: 0.2.1
-Cflags: -I/home/tung/4-wheel-differential-car-ros/src/openslam_gmapping/include -I/home/tung/4-wheel-differential-car-ros/devel/include
+Cflags: -I/home/tung/test_model_robot_4_wheel/src/openslam_gmapping/include -I/home/tung/test_model_robot_4_wheel/devel/include
 Libs: -L${prefix}/lib -lutils -lsensor_base -lsensor_odometry -lsensor_range -llog -lconfigfile -lscanmatcher -lgridfastslam
 Requires: 

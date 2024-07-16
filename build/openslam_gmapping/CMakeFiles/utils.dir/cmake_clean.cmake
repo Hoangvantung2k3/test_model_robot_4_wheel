@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libutils.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libutils.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libutils.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libutils.so"
   "CMakeFiles/utils.dir/utils/movement.cpp.o"
   "CMakeFiles/utils.dir/utils/stat.cpp.o"
 )

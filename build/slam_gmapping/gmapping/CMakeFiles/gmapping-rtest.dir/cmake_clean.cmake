@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/gmapping/gmapping-rtest"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/gmapping/gmapping-rtest.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/gmapping/gmapping-rtest"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/gmapping/gmapping-rtest.pdb"
   "CMakeFiles/gmapping-rtest.dir/test/rtest.cpp.o"
 )
 

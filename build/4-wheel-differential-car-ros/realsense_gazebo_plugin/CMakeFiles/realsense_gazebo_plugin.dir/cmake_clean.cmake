@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/librealsense_gazebo_plugin.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/librealsense_gazebo_plugin.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/librealsense_gazebo_plugin.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/librealsense_gazebo_plugin.so"
   "CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o"
   "CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o"
 )

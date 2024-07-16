@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libgazebo_ros_velodyne_gpu_laser.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libgazebo_ros_velodyne_gpu_laser.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libgazebo_ros_velodyne_gpu_laser.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libgazebo_ros_velodyne_gpu_laser.so"
   "CMakeFiles/gazebo_ros_velodyne_gpu_laser.dir/src/GazeboRosVelodyneLaser.cpp.o"
 )
 

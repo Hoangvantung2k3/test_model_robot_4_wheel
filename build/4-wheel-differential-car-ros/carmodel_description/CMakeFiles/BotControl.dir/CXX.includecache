@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_description/src/BotControl.cpp
+/home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/carmodel_description/src/BotControl.cpp
 BotControl.hpp
-/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_description/src/BotControl.hpp
+/home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/carmodel_description/src/BotControl.hpp
 ros/ros.h
 -
 
-/home/tung/4-wheel-differential-car-ros/src/4-wheel-differential-car-ros/carmodel_description/src/BotControl.hpp
+/home/tung/test_model_robot_4_wheel/src/4-wheel-differential-car-ros/carmodel_description/src/BotControl.hpp
 iostream
 -
 ros/ros.h

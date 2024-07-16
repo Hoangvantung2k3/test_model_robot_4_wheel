@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/pid_control_test"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/pid_control_test.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/pid_control_test"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/pid_control_test.pdb"
   "CMakeFiles/pid_control_test.dir/src/pid_control_test.cpp.o"
 )
 

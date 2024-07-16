@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/car_state_publisher"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/carmodel_description/car_state_publisher.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/car_state_publisher"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/carmodel_description/car_state_publisher.pdb"
   "CMakeFiles/car_state_publisher.dir/src/car_state_publisher.cpp.o"
 )
 

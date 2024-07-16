@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libslam_gmapping_nodelet.pdb"
-  "/home/tung/4-wheel-differential-car-ros/devel/lib/libslam_gmapping_nodelet.so"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libslam_gmapping_nodelet.pdb"
+  "/home/tung/test_model_robot_4_wheel/devel/lib/libslam_gmapping_nodelet.so"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"
 )
