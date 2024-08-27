@@ -213,9 +213,6 @@ target_link_libraries(car_state_publisher ${catkin_LIBRARIES})
 add_executable(move src/move.cpp)
 target_link_libraries(move ${catkin_LIBRARIES})
 
-add_executable(BotControl src/BotControl.cpp)
-target_link_libraries(BotControl ${catkin_LIBRARIES})
-
 add_executable(pid_control_test src/pid_control_test.cpp)
 target_link_libraries(pid_control_test ${catkin_LIBRARIES})
 

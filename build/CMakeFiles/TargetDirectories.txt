@@ -283,7 +283,6 @@
 /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_description/CMakeFiles/edit_cache.dir
 /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_description/CMakeFiles/test.dir
 /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_description/CMakeFiles/pid_control_test.dir
-/home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_description/CMakeFiles/BotControl.dir
 /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_description/CMakeFiles/move.dir
 /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_description/CMakeFiles/car_state_publisher.dir
 /home/tung/test_model_robot_4_wheel/build/4-wheel-differential-car-ros/carmodel_slam/CMakeFiles/install/strip.dir
