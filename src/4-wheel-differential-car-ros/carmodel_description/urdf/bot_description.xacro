@@ -19,7 +19,7 @@
  
   <link name="base_link">
     <!-- pose and inertial -->
-    <pose>0 0 0.1 0 0 0</pose>
+    <pose>0 0 0 0 0 0</pose>
     
     <inertial>
       <mass value="5"/>

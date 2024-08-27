@@ -18,7 +18,7 @@ private:
 
 	// topics to be subscribed
 	ros::Subscriber odom_sub_; // odometry
-
+	ros::Subscriber scan_sub_; // laser scan
 	// topics to be published
 	ros::Publisher vel_pub_; 
 	ros::Publisher error_forward_pub_; 
@@ -43,6 +43,7 @@ private:
 	double D_forward_, D_angle_; // derivative part
 
 	void odomCallBack(const nav_msgs::OdometryConstPtr& odomMsg);
+	void scanCallBack(const sensor_msgs::LaserScan::ConstPtr& scanMsg);
 	void pidAlgorithm();
 	bool loadParam();
 

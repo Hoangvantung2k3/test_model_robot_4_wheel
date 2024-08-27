@@ -13,7 +13,7 @@ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh), last_time_(ros::T
 
     // declare all the subscriber and publisher
     odom_sub_ = nodehandle_.subscribe("/odom", 1, &BotControl::odomCallBack, this);
-
+	scan_sub_ = nodehandle_.subscribe("/m2wr/laser/scan", 1, &BotControl::scanCallBack, this);
     vel_pub_ = nodehandle_.advertise<geometry_msgs::Twist>("/cmd_vel", 200);
     error_forward_pub_ = nodehandle_.advertise<std_msgs::Float32>("/error_forward", 1);
     error_angle_pub_ = nodehandle_.advertise<std_msgs::Float32>("/error_angle", 1);
@@ -46,6 +46,22 @@ BotControl::BotControl(ros::NodeHandle& nh) : nodehandle_(nh), last_time_(ros::T
 }
 
 BotControl::~BotControl(){}
+void BotControl::scanCallBack(const sensor_msgs::LaserScan::ConstPtr& scanMsg){
+	scan_data_ = scanMsg->ranges;
+	int arr_size = scan_data_.size();
+	float smallest_dist = 100;
+
+	for(int i = 0; i<arr_size; i++){
+		if(scan_data_[i] < smallest_dist) {
+			smallest_dist = scan_data_[i];
+			scan_ang_ = scanMsg->angle_min + scanMsg->angle_increment*i;
+		}
+	}
+	scan_range_ = smallest_dist;
+
+	pidAlgorithm();
+}
+
 
 void BotControl::odomCallBack(const nav_msgs::OdometryConstPtr& odomMsg){
     pos_x_ = odomMsg->pose.pose.position.x;

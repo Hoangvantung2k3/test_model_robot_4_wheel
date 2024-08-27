@@ -17,4 +17,5 @@ hướng dẫn chạy thử :
 
 mở rviz : đã khởi chạy luôn trong file launch
 xem thông số tọa độ thông qua camera : rostopic echo /T265_camera/odom/sample 
+chuyển đổi topic của T265 sang /odom: rosrun topic_tools relay /T265_camera/odom/sample /odom
 lưu ý: nhiều file cần cài thêm thư viện khi chạy, trong trường hợp trong máy ko có, post lỗi hiển thị ( khi khởi động ) lên mạng, sẽ có lệnh cài : sudo ... ( thường thiếu ở navigation dùng để chạy trong rviz)
