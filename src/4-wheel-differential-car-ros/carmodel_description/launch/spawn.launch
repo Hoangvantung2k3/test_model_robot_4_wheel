@@ -12,6 +12,12 @@
   <node pkg ="gazebo_pid" type="gazebo_pid_node" name="pid_control_node" output="screen" launch-prefix="gnome-terminal --command">
 		<rosparam command="load" file="$(find carmodel_description)/config/config.yaml"/>
 	</node>
+  <!-- phan da them tuy nhien chua thay dung-->
+    <node name="slam_gmapping" pkg="gmapping" type="slam_gmapping" output="screen">
+    <param name="base_frame" value="base_link"/>
+    <param name="odom_frame" value="odom"/>
+    <param name="map_frame" value="map"/>
+  </node>
  <param command="$(find xacro)/xacro '$(find carmodel_description)/urdf/bot_description.xacro' organize_cloud:=$(arg organize_cloud) gpu:=$(arg gpu) " name="robot_description"/>
 
     <arg name="x" default="0"/>
