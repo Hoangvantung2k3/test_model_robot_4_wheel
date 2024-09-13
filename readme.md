@@ -11,7 +11,7 @@ hướng dẫn chạy thử :
 - model mới : roslaunch carmodel_description spawn.launch
 - rosrun carmodel_description o + tab + .py
 - rosrun teleop_twist_keyboard teleop_twist_keyboard.py : lệnh này chạy cho nhanh, thay vì roslaunch file teleop (rosrun carmodel_teleop carmodel_teleop_key.launch)
-- khởi chạy PID :   rosrun carmodel_description pid_control_test.cpp
+- khởi chạy PID :   rosrun carmodel_description pid_control_test
 
 
 
